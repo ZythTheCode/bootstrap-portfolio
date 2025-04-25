@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+.name {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 3rem;
+}
+
+.nav-link {
+    color: #161313;
+}
+.nav-link:hover {
+    color: #16131365;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.skill-title {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.soc-med-btn {
+    background-color: white;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100px;
+}
+
+.back-to-top {
+    color: black;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+        text-decoration: underline;
+        font-weight: bold;
+}
+
+.nav-bar {
+    position: sticky;     
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+.nav-link:hover, .nav-link:focus {
+    position: sticky;     
+    top: 0;
+    background-color: white;
+    color: lightgray;
+    z-index: 1000;
+}
+
+section {
+    scroll-margin-top: 30px;
+}
+
+#hero {
+    height: 100vh;
+    padding: 10px;
+}
